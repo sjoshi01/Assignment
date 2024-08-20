@@ -27,4 +27,3 @@ MatrixMultiplication/
 
 ## Output
 Runtime taken is 14.4161794 seconds
-Passphrase: Atlas it didn't work
