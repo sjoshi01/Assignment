@@ -8,6 +8,7 @@ Login application
 
 
 ## Project structure
+```plaintext
 LoginApplication/
 ├── LoginApp/
 │   ├── Platforms/
