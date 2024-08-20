@@ -23,7 +23,7 @@ MatrixMultiplication/
 │   ├── InitResponse.cs          # Model for initial size response
 │   ├── MatrixRowOrColumnResponse.cs     # Model for matrix data response 
 └── README.md                    # Project documentation
-```Plain text
+```
 
 ## Output
 Runtime taken is 14.4161794 seconds
