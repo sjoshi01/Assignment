@@ -1,0 +1,25 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginApp.Views.SuccessPage">
+       <ContentPage.ToolbarItems>
+              <ToolbarItem Text="Sign Out"
+                           Command="{Binding SignOutCommand}" />
+       </ContentPage.ToolbarItems>
+
+       <StackLayout VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    Padding="30">
+
+              <Label Text="Sign In Successful!"
+                     FontSize="36"
+                     FontAttributes="Bold"
+                     HorizontalOptions="Center"
+                     TextColor="Green"/>
+
+              <Label Text="{Binding WelcomeMessage}"
+                     FontSize="18"
+                     HorizontalOptions="Center"
+                     TextColor="Black"
+                     Margin="0,10,0,0"/>
+       </StackLayout>
+</ContentPage>

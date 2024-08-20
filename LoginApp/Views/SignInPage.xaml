@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:LoginApp.ViewModels;assembly=LoginApp"
+             x:Class="LoginApp.Views.SignInPage">
+     <ContentPage.BindingContext>
+        <vm:SignInViewModel/>
+    </ContentPage.BindingContext>
+
+    <StackLayout Padding="30">
+        <Entry Placeholder="Username"
+               Text="{Binding Username}" 
+               Style="{StaticResource EntryStyle}"/>
+
+        <Entry Placeholder="Password"
+               Text="{Binding Password}" 
+               Style="{StaticResource EntryStyle}"
+               IsPassword="True"/>
+
+        <Label Text="{Binding ErrorMessage}"
+               TextColor="Red"
+               IsVisible="{Binding ErrorMessage, Converter={StaticResource StringToBoolConverter}}"
+               HorizontalOptions="Center" />
+
+        <Button Text="Sign In"
+                Command="{Binding SignInCommand}"
+                IsEnabled="{Binding IsSignInButtonEnabled}"
+                Style="{StaticResource PrimaryButtonStyle}" />
+
+        <Label />
+
+        <Button Text="New User? Sign Up"
+                Command="{Binding CreateAccountCommand}" 
+                Style="{StaticResource SecondaryButtonStyle}" />
+    </StackLayout>
+</ContentPage>

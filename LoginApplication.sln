@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginApp", "LoginApp\LoginApp.csproj", "{7ADC632B-5184-4A33-AFEB-9263DC726B0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ADC632B-5184-4A33-AFEB-9263DC726B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ADC632B-5184-4A33-AFEB-9263DC726B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ADC632B-5184-4A33-AFEB-9263DC726B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ADC632B-5184-4A33-AFEB-9263DC726B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95282A79-252B-482B-BDE6-58E167E1D4C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95282A79-252B-482B-BDE6-58E167E1D4C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95282A79-252B-482B-BDE6-58E167E1D4C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95282A79-252B-482B-BDE6-58E167E1D4C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
