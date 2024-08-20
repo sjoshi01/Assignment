@@ -1,4 +1,4 @@
-Login application
+## Login application
 
 ## Features
 
@@ -44,8 +44,8 @@ LoginApplication/
 │   ├── App.xaml.cs
 │   └── LoginApp.csproj
 └── LoginApplication.sln
-
-Matrix Multiplication
+```
+## Matrix Multiplication
 
 ## Overview
 The MatrixMultiplication project is a C# console application designed to retrieve two-dimensional datasets from an external service, multiply them as matrices, and then validate the result by computing an MD5 hash. The project demonstrates matrix operations, interaction with an external API, and validation of computed results.
