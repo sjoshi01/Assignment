@@ -60,11 +60,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/coguser/Desktop/Projects/MatrixMultiplication/MatrixMultiplication/MatrixMultiplication.csproj",
+      "projectUniqueName": "/Users/coguser/Desktop/Projects/Assignment/MatrixMultiplication/MatrixMultiplication.csproj",
       "projectName": "MatrixMultiplication",
-      "projectPath": "/Users/coguser/Desktop/Projects/MatrixMultiplication/MatrixMultiplication/MatrixMultiplication.csproj",
+      "projectPath": "/Users/coguser/Desktop/Projects/Assignment/MatrixMultiplication/MatrixMultiplication.csproj",
       "packagesPath": "/Users/coguser/.nuget/packages/",
-      "outputPath": "/Users/coguser/Desktop/Projects/MatrixMultiplication/MatrixMultiplication/obj/",
+      "outputPath": "/Users/coguser/Desktop/Projects/Assignment/MatrixMultiplication/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/coguser/.nuget/NuGet/NuGet.Config"

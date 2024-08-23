@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/coguser/Desktop/Projects/Assignment/LoginApp/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Entitlements.xcent /Users/coguser/Desktop/Projects/Assignment/LoginApp/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/LoginApp.app

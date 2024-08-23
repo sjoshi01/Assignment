@@ -12,7 +12,7 @@
       <CodesignDisableTimestamp>true</CodesignDisableTimestamp>
       <CodesignKeychain></CodesignKeychain>
       <CodesignUseHardenedRuntime></CodesignUseHardenedRuntime>
-      <SourceProjectPath>/Users/coguser/Desktop/Projects/LoginApplication/LoginApp</SourceProjectPath>
+      <SourceProjectPath>/Users/coguser/Desktop/Projects/Assignment/LoginApp</SourceProjectPath>
     </_CodesignBundle>
   </ItemGroup>
 </Project>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "htRLpSUY6+c=",
+  "dgSpecHash": "tp/rva+EY74=",
   "success": true,
-  "projectFilePath": "/Users/coguser/Desktop/Projects/LoginApplication/LoginApp/LoginApp.csproj",
+  "projectFilePath": "/Users/coguser/Desktop/Projects/Assignment/LoginApp/LoginApp.csproj",
   "expectedPackageFiles": [
     "/Users/coguser/.nuget/packages/googlegson/2.10.1.4/googlegson.2.10.1.4.nupkg.sha512",
     "/Users/coguser/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",

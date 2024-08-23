@@ -25260,11 +25260,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/coguser/Desktop/Projects/LoginApplication/LoginApp/LoginApp.csproj",
+      "projectUniqueName": "/Users/coguser/Desktop/Projects/Assignment/LoginApp/LoginApp.csproj",
       "projectName": "LoginApp",
-      "projectPath": "/Users/coguser/Desktop/Projects/LoginApplication/LoginApp/LoginApp.csproj",
+      "projectPath": "/Users/coguser/Desktop/Projects/Assignment/LoginApp/LoginApp.csproj",
       "packagesPath": "/Users/coguser/.nuget/packages/",
-      "outputPath": "/Users/coguser/Desktop/Projects/LoginApplication/LoginApp/obj/",
+      "outputPath": "/Users/coguser/Desktop/Projects/Assignment/LoginApp/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [

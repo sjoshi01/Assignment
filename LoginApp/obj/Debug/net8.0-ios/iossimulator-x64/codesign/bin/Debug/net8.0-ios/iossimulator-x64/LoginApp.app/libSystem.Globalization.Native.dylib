@@ -1,1 +1,1 @@
--v --force --timestamp=none --sign - /Users/coguser/Desktop/Projects/LoginApplication/LoginApp/bin/Debug/net8.0-ios/iossimulator-x64/LoginApp.app/libSystem.Globalization.Native.dylib
+-v --force --timestamp=none --sign - /Users/coguser/Desktop/Projects/Assignment/LoginApp/bin/Debug/net8.0-ios/iossimulator-x64/LoginApp.app/libSystem.Globalization.Native.dylib
