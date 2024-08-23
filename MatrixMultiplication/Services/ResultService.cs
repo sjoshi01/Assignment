@@ -52,10 +52,7 @@ public class ResultService : IResultService
 
         HttpResponseMessage response = await _httpClient.PostAsync($"{_baseUrl}/api/numbers/validate", content);
         response.EnsureSuccessStatusCode();
-
         string jsonResponse = await response.Content.ReadAsStringAsync();
-        Console.WriteLine("Raw API Response:");
-        Console.WriteLine(jsonResponse);
         dynamic result = JsonConvert.DeserializeObject(jsonResponse);
         return result.Value;
     }
