@@ -17,6 +17,8 @@ Matrix Multiplication: Perform multiplication on large matrices using optimized 
 Result Validation: Compute an MD5 hash of the result matrix and validate it against the external API.
 
 
+<img width="317" alt="Screenshot 2024-08-20 at 1 40 43 AM" src="https://github.com/user-attachments/assets/9a9c014c-2e72-400f-b3f5-3c9dccfff092">
+
 ## Project structure
 ```plaintext
 Assignment/
