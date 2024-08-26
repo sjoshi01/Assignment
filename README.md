@@ -1,4 +1,4 @@
-## Login application
+# Login application
 
 ## Features
 
@@ -6,7 +6,7 @@
 - **Secure Password Storage**: Passwords are hashed and stored securely using platform-specific mechanisms. Preferences is used to store username and password in local storage.
 - **Account Management**: Users can create accounts, sign in, and manage their credentials.
 
-## Matrix Multiplication
+# Matrix Multiplication
 
 ## Overview
 The MatrixMultiplication project is a C# console application designed to retrieve two-dimensional datasets from an external service, multiply them as matrices, and then validate the result by computing an MD5 hash. The project demonstrates matrix operations, interaction with an external API, and validation of computed results.
@@ -16,6 +16,7 @@ Matrix Initialization: Initialize datasets from an external API.
 Matrix Multiplication: Perform multiplication on large matrices using optimized parallel processing.
 Result Validation: Compute an MD5 hash of the result matrix and validate it against the external API.
 
+## Screenshots
 <img width="200" height="300" alt="ios_sign_in" src="https://github.com/user-attachments/assets/b32792b4-82de-4c96-9b9a-7377b9b9ea24">
 <img width="200" height="300" alt="ios_create_account_error1" src="https://github.com/user-attachments/assets/65c5def8-82c5-44fd-b877-0a9c59782670">
 <img width="200" height="300" alt="ios_sign_in_success" src="https://github.com/user-attachments/assets/ed1a06ff-ad0c-42a0-ade1-316c9f871007">
@@ -90,6 +91,22 @@ Assignment/
 └── AssignmentSolution.sln
 └── README.md                    # Project documentation
 ```
+# How to Run
 
-## Output
+## Frontend (LoginApp)
+1. Select LoginApp as the startup project in Visual Studio Code.
+2. Pick the running simulator or device for your platform (e.g., Android, iOS, Windows).
+3. Run the application by pressing F5 or using the Run option in Visual Studio Code.
+
+## Serverside (MatrixMultiplication)
+1. Open a terminal
+2. Navigate to MatrixMultiplication: cd MatrixMultiplication
+3. Run the server: dotnet run
+
+## Running tests for serverside
+1. Open a terminal
+2. Navigate to MatrixMultiplication.Tests: cd MatrixMultiplication.Tests
+3. Run the tests: dotnet test
+   
+# Output
 Runtime taken is 14.4161794 seconds
