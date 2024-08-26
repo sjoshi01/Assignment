@@ -1,4 +1,42 @@
-.DS_Store
-.DS_Store
+# Ignore bin and obj directories
 **/bin/
 **/obj/
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# Rider and Visual Studio-specific files
+.idea/
+.vscode/
+.vs/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+*.exe
+*.dll
+*.pdb
+
+# Auto-generated files
+*.g.cs
+*.g.i.cs
+*.nupkg
+*.snupkg
+
+# macOS-specific files
+.DS_Store
+._*
+
+# Logs
+*.log
+
+# Installer files
+*.msi
+*.msm
+*.msp
+
+# Test results
+TestResults/
+

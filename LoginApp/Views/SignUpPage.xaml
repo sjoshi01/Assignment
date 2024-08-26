@@ -7,6 +7,7 @@
        <ContentPage.BindingContext>
               <vm:SignUpViewModel/>
        </ContentPage.BindingContext>
+       <ScrollView>
 
        <StackLayout Padding="30"
                     VerticalOptions="CenterAndExpand"
@@ -61,4 +62,5 @@
                 Style="{StaticResource PrimaryButtonStyle}" />
 
        </StackLayout>
+       </ScrollView>
 </ContentPage>
